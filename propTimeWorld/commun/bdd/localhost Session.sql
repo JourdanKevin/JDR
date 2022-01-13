@@ -1,0 +1,1 @@
+SELECT * FROM user JOIN typeuser WHERE pseudo="kesivi" AND mdp="test" AND user.id_typeUser=typeuser.id;

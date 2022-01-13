@@ -1,0 +1,1 @@
+<?php header('Location: propTimeWorld/page/accueil/accueil.php');?></html>

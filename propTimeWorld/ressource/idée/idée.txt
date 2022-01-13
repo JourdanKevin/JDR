@@ -1,0 +1,5 @@
+Menu deroulant sur le nom d'utilisateurs
+
+Popup qui se ferme en cliquant a coter
+
+Sous le pseudo du joueur non du dernier personnage utiliser (pas dans le menu deroulant)

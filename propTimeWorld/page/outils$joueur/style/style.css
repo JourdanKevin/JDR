@@ -1,0 +1,71 @@
+@import "../../../commun/style/style.css";
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+    float: left
+  }
+  
+  .vertical-menu > a {
+    background-color: #7a7a7a; /* Grey background color */
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px;
+  }
+  
+  .vertical-menu > a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+    cursor: pointer;
+  }
+  .vertical-menu > a.active{
+    background-color: #dfc4c4;
+  }
+  .vertical-menu > a.title {
+    background-color: #781a1a; /* Add a green color to the "active/current" link */
+    cursor: auto;
+  }
+
+  .divShow{
+    float: left;
+    text-align: center;
+  }
+  .outils{
+    background-color: #5c0909;
+}
+.add{
+  font-size: 350%;
+  padding:0% !important;
+  width : 5%;
+  float: left;
+}
+.valider{
+  width: 10% !important;
+  padding:1.1% !important;
+  /* margin: auto !important; */
+  float: right;
+}
+table, td {
+  border: 1px solid white;
+}
+table {
+  /* width: 100%; */
+  margin-top: 2%;
+
+}
+th{
+  color : white;
+  font-size: 150%;
+  
+}
+td { 
+  width:10%;
+  /* margin: auto; */
+
+  }
+td> input{
+  margin: auto !important;
+  width: 100% !important;
+  text-align: center !important;
+  
+}

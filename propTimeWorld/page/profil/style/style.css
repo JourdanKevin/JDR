@@ -1,0 +1,24 @@
+@import "../../../commun/style/style.css";
+.bModifier {
+    display: none;
+}
+
+p {
+    font-size: 25px;
+}
+
+.aMod {
+    font-size: 25px;
+    color: #a4a4a4;
+    margin-left: 2%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+input {
+    border: none;
+}

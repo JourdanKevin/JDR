@@ -1,0 +1,38 @@
+@import "../../../commun/style/style.css";
+.Contact {
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.message {
+    flex-direction: row;
+    flex: auto;
+    width: 81.9%;
+    background-color: #7a7a7a;
+    border: none;
+    font-size: 25px;
+    margin-top: 0.5%;
+}
+
+.cInput {
+    width: 82% !important;
+}
+
+.cButton {
+    width: 82%;
+    margin-top: 11%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+textarea::placeholder {
+    color: #303030 !important;
+}
+.contact{
+    background-color: #5c0909;
+}

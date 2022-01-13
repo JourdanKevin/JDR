@@ -1,0 +1,96 @@
+@import "../../../commun/style/style.css";
+body {
+    background-color: #303030;
+    margin: unset;
+}
+
+.headerDiv {
+    text-align: center;
+    height: 50px;
+    margin-top: 0.7%;
+    /* margin-bottom: 0.3%; */
+}
+
+.identification {
+    margin: auto;
+}
+
+.headerDiv>h1 {
+    display: inline-block;
+    margin-top: auto;
+    color: white;
+}
+
+.title {
+    font-size: 40px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    margin-left: 2%;
+    color: #a4a4a4
+}
+
+.connexion {
+    background-color: #7a7a7a;
+    float: right;
+    border: 5px;
+    background-color: #7a7a7a;
+    border-radius: 100px;
+    margin-right: 0.5%;
+    padding: 0.6%;
+    margin-top: 0.3%;
+    font-size: 20px;
+    cursor: pointer;
+    right: 0px;
+    /* top: 1%; */
+}
+
+.connexion:hover {
+    transition: 0.5s;
+    background-color: #494949;
+    color: #c7c7c7;
+}
+
+header>div>nav {
+    text-align: center;
+    background-color: #781a1a;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    /* flex-direction: column; */
+    /* width: 5%; */
+}
+
+nav>a:hover {
+    transition: 0.3s;
+    background-color: #5c0909;
+    color: #dad3d3;
+}
+
+nav>a {
+    display: inline-block;
+    margin-inline-end: -3%;
+    margin-inline-start: 10.5%;
+    font-size: 25px;
+    padding: 0.8%;
+}
+
+footer {
+    background-color: #781a1a;
+}
+
+footer>p {
+    margin-right: 5%;
+    text-align: right;
+    font-size: 15px;
+    padding: 1%;
+    margin-top: 7%;
+}
